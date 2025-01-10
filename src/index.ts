@@ -14,3 +14,8 @@ console.log(`Quantité : ${quantity}`);
 console.log(`Prix : ${price} €`);
 console.log(`Total : ${total} €`);
 
+//tache 5
+const taxUT = 6.85 / 100;
+const totalWithTaxUT = total * (1 + taxUT);
+
+console.log(`Prix avec taxe (UT) : ${totalWithTaxUT.toFixed(2)} €`);
