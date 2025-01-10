@@ -1,5 +1,5 @@
 const taxesParEtat: { [etat: string]: number } = {
-  UT: 6.58,
+  UT: 6.85,
   NV: 8.0,
   TX: 6.25,
   AL: 4.0,
@@ -45,9 +45,9 @@ function calculerPrixTotalAvecRemiseEtTaxe(
   return sousTotalApresRemise + taxe;
 }
 
-const prixUnitaire: number = 1500;
-const quantite: number = 5;
-const etat: string = "NV";
+const prixUnitaire: number = 270.99;
+const quantite: number = 978;
+const etat: string = "UT";
 
 const prixTotal: number = calculerPrixTotalAvecRemiseEtTaxe(
   prixUnitaire,
