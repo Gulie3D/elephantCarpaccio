@@ -19,3 +19,9 @@ const taxUT = 6.85 / 100;
 const totalWithTaxUT = total * (1 + taxUT);
 
 console.log(`Prix avec taxe (UT) : ${totalWithTaxUT.toFixed(2)} €`);
+
+//tache 6
+const taxNV = 8 / 100;
+const totalWithTaxNV = total * (1 + taxNV);
+
+console.log(`Prix avec taxe (NV) : ${totalWithTaxNV.toFixed(2)} €`);
